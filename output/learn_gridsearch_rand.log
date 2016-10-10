@@ -1,0 +1,94 @@
+/home/don/sync/scikit-learn/sklearn/cross_validation.py:43: DeprecationWarning: This module has been deprecated in favor of the model_selection module into which all the refactored classes and functions are moved. Also note that the interface of the new CV iterators are different from that of this module. This module will be removed in 0.20.
+  "This module will be removed in 0.20.", DeprecationWarning)
+/home/don/sync/scikit-learn/sklearn/grid_search.py:43: DeprecationWarning: This module has been deprecated in favor of the model_selection module into which all the refactored classes and functions are moved. This module will be removed in 0.20.
+  DeprecationWarning)
+START:preprocessing: (read data, scaling, remove constant columns
+/home/don/sync/scikit-learn/sklearn/utils/extmath.py:360: UserWarning: The number of power iterations is increased to 7 to achieve higher precision.
+  warnings.warn("The number of power iterations is increased to 7 to "
+before scaling: (76020, 369)
+after scaling: (76020, 361)
+Fitting 4 folds for each of 10 candidates, totalling 40 fits
+[Parallel(n_jobs=8)]: Done  16 tasks      | elapsed: 21.2min
+[Parallel(n_jobs=8)]: Done  40 out of  40 | elapsed: 44.9min finished
+[CV] reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=6, min_child_weight=21, subsample=0.7, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=6, min_child_weight=21, subsample=0.7, reg_lambda=1, max_depth=3, score=0.842113 -11.3min
+[CV] reg_alpha=120, colsample_bytree=0.6, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=5, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.6, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=5, max_depth=3, score=0.834102 - 6.4min
+[CV] reg_alpha=110, colsample_bytree=0.6, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=4, min_child_weight=33, subsample=0.8, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=110, colsample_bytree=0.6, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=4, min_child_weight=33, subsample=0.8, reg_lambda=1, max_depth=3, score=0.834269 - 7.4min
+[CV] reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=6, min_child_weight=15, subsample=0.8, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=6, min_child_weight=15, subsample=0.8, reg_lambda=1, max_depth=3, score=0.833563 - 8.9min
+[CV] reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=0.1, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=0.1, max_depth=3, score=0.834003 - 8.9min
+[CV] reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=6, min_child_weight=21, subsample=0.7, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=6, min_child_weight=21, subsample=0.7, reg_lambda=1, max_depth=3, score=0.833666 -11.7min
+[CV] reg_alpha=120, colsample_bytree=0.6, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=5, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.6, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=5, max_depth=3, score=0.839786 - 6.4min
+[CV] reg_alpha=110, colsample_bytree=0.6, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=4, min_child_weight=33, subsample=0.8, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=110, colsample_bytree=0.6, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=4, min_child_weight=33, subsample=0.8, reg_lambda=1, max_depth=3, score=0.839455 - 7.3min
+[CV] reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=6, min_child_weight=15, subsample=0.8, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=6, min_child_weight=15, subsample=0.8, reg_lambda=1, max_depth=3, score=0.839251 - 9.0min
+[CV] reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=0.1, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=0.1, max_depth=3, score=0.841857 - 9.0min
+[CV] reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=6, min_child_weight=21, subsample=0.7, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=6, min_child_weight=21, subsample=0.7, reg_lambda=1, max_depth=3, score=0.839348 -11.7min
+[CV] reg_alpha=120, colsample_bytree=0.6, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=5, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.6, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=5, max_depth=3, score=0.843351 - 6.3min
+[CV] reg_alpha=110, colsample_bytree=0.6, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=4, min_child_weight=33, subsample=0.8, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=110, colsample_bytree=0.6, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=4, min_child_weight=33, subsample=0.8, reg_lambda=1, max_depth=3, score=0.833819 - 7.3min
+[CV] reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=6, min_child_weight=15, subsample=0.8, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=6, min_child_weight=15, subsample=0.8, reg_lambda=1, max_depth=3, score=0.834007 - 9.2min
+[CV] reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=0.1, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=0.1, max_depth=3, score=0.833796 - 9.1min
+[CV] reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=6, min_child_weight=21, subsample=0.7, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=6, min_child_weight=21, subsample=0.7, reg_lambda=1, max_depth=3, score=0.832688 -11.7min
+[CV] reg_alpha=120, colsample_bytree=0.6, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=5, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.6, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=5, max_depth=3, score=0.833419 - 6.4min
+[CV] reg_alpha=110, colsample_bytree=0.6, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=4, min_child_weight=33, subsample=0.8, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=110, colsample_bytree=0.6, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=4, min_child_weight=33, subsample=0.8, reg_lambda=1, max_depth=3, score=0.841830 - 7.3min
+[CV] reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=6, min_child_weight=15, subsample=0.8, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=6, min_child_weight=15, subsample=0.8, reg_lambda=1, max_depth=3, score=0.841010 - 9.4min
+[CV] reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=0.1, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=2, min_child_weight=15, subsample=0.8, reg_lambda=0.1, max_depth=3, score=0.839489 - 8.9min
+[CV] reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=2, min_child_weight=24, subsample=0.7, reg_lambda=5, max_depth=3 
+[CV]  reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=2, min_child_weight=24, subsample=0.7, reg_lambda=5, max_depth=3, score=0.833682 - 7.6min
+[CV] reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=4, min_child_weight=24, subsample=0.7, reg_lambda=5, max_depth=3 
+[CV]  reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=4, min_child_weight=24, subsample=0.7, reg_lambda=5, max_depth=3, score=0.833203 -11.5min
+[CV] reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=6, min_child_weight=33, subsample=0.8, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=6, min_child_weight=33, subsample=0.8, reg_lambda=1, max_depth=3, score=0.833808 - 7.8min
+[CV] reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=6, min_child_weight=15, subsample=0.8, reg_lambda=0.1, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=6, min_child_weight=15, subsample=0.8, reg_lambda=0.1, max_depth=3, score=0.833637 -11.8min
+[CV] reg_alpha=120, colsample_bytree=0.6, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=4, min_child_weight=33, subsample=0.7, reg_lambda=0.1, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.6, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=4, min_child_weight=33, subsample=0.7, reg_lambda=0.1, max_depth=3, score=0.833721 - 5.2min
+[CV] reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=2, min_child_weight=24, subsample=0.7, reg_lambda=5, max_depth=3 
+[CV]  reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=2, min_child_weight=24, subsample=0.7, reg_lambda=5, max_depth=3, score=0.840582 - 8.9min
+[CV] reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=4, min_child_weight=24, subsample=0.7, reg_lambda=5, max_depth=3 
+[CV]  reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=4, min_child_weight=24, subsample=0.7, reg_lambda=5, max_depth=3, score=0.833527 -12.0min
+[CV] reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=6, min_child_weight=33, subsample=0.8, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=6, min_child_weight=33, subsample=0.8, reg_lambda=1, max_depth=3, score=0.842793 - 7.9min
+[CV] reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=6, min_child_weight=15, subsample=0.8, reg_lambda=0.1, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=6, min_child_weight=15, subsample=0.8, reg_lambda=0.1, max_depth=3, score=0.841927 -11.5min
+[CV] reg_alpha=120, colsample_bytree=0.6, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=4, min_child_weight=33, subsample=0.7, reg_lambda=0.1, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.6, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=4, min_child_weight=33, subsample=0.7, reg_lambda=0.1, max_depth=3, score=0.833712 - 4.5min
+[CV] reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=2, min_child_weight=24, subsample=0.7, reg_lambda=5, max_depth=3 
+[CV]  reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.6, learning_rate=0.05, max_delta_step=2, min_child_weight=24, subsample=0.7, reg_lambda=5, max_depth=3, score=0.841396 - 9.0min
+[CV] reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=4, min_child_weight=24, subsample=0.7, reg_lambda=5, max_depth=3 
+[CV]  reg_alpha=90, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=4, min_child_weight=24, subsample=0.7, reg_lambda=5, max_depth=3, score=0.839285 -12.1min
+[CV] reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=6, min_child_weight=33, subsample=0.8, reg_lambda=1, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=6, min_child_weight=33, subsample=0.8, reg_lambda=1, max_depth=3, score=0.839529 - 7.7min
+[CV] reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=6, min_child_weight=15, subsample=0.8, reg_lambda=0.1, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.8, colsample_bylevel=0.8, learning_rate=0.05, max_delta_step=6, min_child_weight=15, subsample=0.8, reg_lambda=0.1, max_depth=3, score=0.838648 -11.6min
+[CV] reg_alpha=120, colsample_bytree=0.6, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=4, min_child_weight=33, subsample=0.7, reg_lambda=0.1, max_depth=3 
+[CV]  reg_alpha=120, colsample_bytree=0.6, colsample_bylevel=0.5, learning_rate=0.05, max_delta_step=4, min_child_weight=33, subsample=0.7, reg_lambda=0.1, max_depth=3, score=0.839882 - 4.4min
+mean: 0.83739, std: 0.00361, params: {'reg_alpha': 90, 'colsample_bytree': 0.8, 'colsample_bylevel': 0.6, 'learning_rate': 0.05, 'max_delta_step': 2, 'min_child_weight': 24, 'subsample': 0.7, 'reg_lambda': 5, 'max_depth': 3}
+mean: 0.83695, std: 0.00392, params: {'reg_alpha': 90, 'colsample_bytree': 0.8, 'colsample_bylevel': 0.8, 'learning_rate': 0.05, 'max_delta_step': 6, 'min_child_weight': 21, 'subsample': 0.7, 'reg_lambda': 1, 'max_depth': 3}
+mean: 0.83696, std: 0.00371, params: {'reg_alpha': 90, 'colsample_bytree': 0.8, 'colsample_bylevel': 0.8, 'learning_rate': 0.05, 'max_delta_step': 4, 'min_child_weight': 24, 'subsample': 0.7, 'reg_lambda': 5, 'max_depth': 3}
+mean: 0.83766, std: 0.00411, params: {'reg_alpha': 120, 'colsample_bytree': 0.6, 'colsample_bylevel': 0.5, 'learning_rate': 0.05, 'max_delta_step': 2, 'min_child_weight': 15, 'subsample': 0.8, 'reg_lambda': 5, 'max_depth': 3}
+mean: 0.83734, std: 0.00341, params: {'reg_alpha': 110, 'colsample_bytree': 0.6, 'colsample_bylevel': 0.6, 'learning_rate': 0.05, 'max_delta_step': 4, 'min_child_weight': 33, 'subsample': 0.8, 'reg_lambda': 1, 'max_depth': 3}
+mean: 0.83759, std: 0.00376, params: {'reg_alpha': 120, 'colsample_bytree': 0.8, 'colsample_bylevel': 0.5, 'learning_rate': 0.05, 'max_delta_step': 6, 'min_child_weight': 33, 'subsample': 0.8, 'reg_lambda': 1, 'max_depth': 3}
+mean: 0.83696, std: 0.00324, params: {'reg_alpha': 90, 'colsample_bytree': 0.8, 'colsample_bylevel': 0.6, 'learning_rate': 0.05, 'max_delta_step': 6, 'min_child_weight': 15, 'subsample': 0.8, 'reg_lambda': 1, 'max_depth': 3}
+mean: 0.83689, std: 0.00360, params: {'reg_alpha': 120, 'colsample_bytree': 0.8, 'colsample_bylevel': 0.8, 'learning_rate': 0.05, 'max_delta_step': 6, 'min_child_weight': 15, 'subsample': 0.8, 'reg_lambda': 0.1, 'max_depth': 3}
+mean: 0.83729, std: 0.00349, params: {'reg_alpha': 120, 'colsample_bytree': 0.8, 'colsample_bylevel': 0.6, 'learning_rate': 0.05, 'max_delta_step': 2, 'min_child_weight': 15, 'subsample': 0.8, 'reg_lambda': 0.1, 'max_depth': 3}
+mean: 0.83763, std: 0.00408, params: {'reg_alpha': 120, 'colsample_bytree': 0.6, 'colsample_bylevel': 0.5, 'learning_rate': 0.05, 'max_delta_step': 4, 'min_child_weight': 33, 'subsample': 0.7, 'reg_lambda': 0.1, 'max_depth': 3}
+best score:0.837664
+best param:{'reg_alpha': 120, 'colsample_bytree': 0.6, 'colsample_bylevel': 0.5, 'learning_rate': 0.05, 'max_delta_step': 2, 'min_child_weight': 15, 'subsample': 0.8, 'reg_lambda': 5, 'max_depth': 3}
